@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Saathi connects neighbours who need market essentials with people already coming home from the market."
+    />
+    <title>Saathi — Market help, carried home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <div class="page-width announcement-inner">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Saathi is helping neighbours in and around Sonapur</span>
+        <a href="#how-it-works">See how it works <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="page-width nav-wrap">
+        <a class="brand" href="#top" aria-label="Saathi home">
+          <span class="brand-mark" aria-hidden="true">स</span>
+          <span>
+            <strong>saathi</strong>
+            <small>market help, carried home</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#request">Request essentials</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#helpers">Go to the market</a>
+        </nav>
+        <a class="nav-cta" href="#request">Get started <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero page-width">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> A little help, from someone on the way</div>
+          <h1>Everyday essentials.<br /><em>One neighbour away.</em></h1>
+          <p class="hero-text">
+            Need something from the market? Tell us what you need and we’ll find trusted people already coming back your way.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#request">Request market help <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#how-it-works">Learn how Saathi works <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note">
+            <div class="mini-avatars" aria-hidden="true">
+              <span>R</span><span>M</span><span>K</span><span>+</span>
+            </div>
+            <p><strong>128 neighbours</strong> have joined the Sonapur pilot</p>
+          </div>
+        </div>
+        <div class="hero-scene" aria-label="Illustration of a market route">
+          <div class="scene-sun"></div>
+          <div class="scene-label scene-label-market"><span class="label-icon">✦</span> Main Market</div>
+          <div class="scene-label scene-label-home"><span class="label-icon">⌂</span> Your home</div>
+          <svg class="route-map" viewBox="0 0 560 420" role="img" aria-label="A dotted route from a market to a home">
+            <path class="hill hill-back" d="M0 265C70 210 105 250 168 220c75-36 116-22 183 22 56 36 112 35 209-29v207H0Z" />
+            <path class="hill hill-front" d="M0 314c77-45 125-10 194-31 82-25 120-3 176 21 57 25 113 14 190-32v156H0Z" />
+            <path class="route-shadow" d="M119 175c41 11 86 39 102 82 17 47 10 77 51 82 39 6 67-26 90-14 25 13 24 50 54 65" />
+            <path class="route-line" d="M119 175c41 11 86 39 102 82 17 47 10 77 51 82 39 6 67-26 90-14 25 13 24 50 54 65" />
+            <circle class="route-pin route-pin-start" cx="119" cy="175" r="12" />
+            <circle class="route-pin route-pin-end" cx="416" cy="390" r="12" />
+            <g class="market-stall" transform="translate(71 127)">
+              <path d="M5 36h82v59H5z" />
+              <path class="stall-roof" d="M0 37h92L82 7H10Z" />
+              <path class="stall-stripe" d="M14 12 24 37M33 10l9 27M54 9l-1 28M74 9l-10 28" />
+              <rect x="18" y="53" width="18" height="42" rx="2" />
+              <rect x="57" y="53" width="18" height="42" rx="2" />
+              <circle class="produce tomato" cx="46" cy="56" r="9" />
+              <circle class="produce mango" cx="63" cy="48" r="7" />
+              <path class="leaf" d="M45 44c2-7 8-8 12-6-2 5-6 8-12 6Z" />
+            </g>
+            <g class="home" transform="translate(378 320)">
+              <path class="home-roof" d="m0 35 38-32 38 32Z" />
+              <path class="home-body" d="M10 33h56v62H10Z" />
+              <path class="door" d="M32 58h15v37H32Z" />
+              <rect class="window" x="17" y="47" width="11" height="13" rx="1" />
+              <rect class="window" x="51" y="47" width="11" height="13" rx="1" />
+            </g>
+            <g class="helper" transform="translate(260 254)">
+              <circle class="helper-head" cx="18" cy="11" r="10" />
+              <path class="helper-body" d="M5 30c0-9 6-14 13-14s13 5 13 14v35H5Z" />
+              <path class="helper-bag" d="m28 34 24 7-5 27-24-7Z" />
+              <path class="helper-arm" d="M8 34 0 50l13 5" />
+            </g>
+          </svg>
+          <div class="scene-caption"><span class="caption-dot"></span> Real routes. Small favours. Stronger communities.</div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <div class="page-width trust-items">
+          <div class="trust-item"><span class="trust-icon">⌁</span><span><strong>Route-matched</strong><small>Helpers already on the way</small></span></div>
+          <div class="trust-item"><span class="trust-icon">✦</span><span><strong>Neighbour trusted</strong><small>Profiles and delivery history</small></span></div>
+          <div class="trust-item"><span class="trust-icon">◷</span><span><strong>WhatsApp simple</strong><small>No app install for helpers</small></span></div>
+        </div>
+      </section>
+
+      <section class="request-section page-width" id="request">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> Start with what you need</div>
+            <h2>Bring the market<br /><em>closer to home.</em></h2>
+          </div>
+          <p>Share the essentials you need. We’ll send your request to up to five trusted people who are heading your way.</p>
+        </div>
+
+        <div class="request-grid">
+          <form class="card request-form" id="request-form" novalidate>
+            <div class="card-topline">
+              <span class="step-number">01</span>
+              <span class="card-kicker">Your market request</span>
+              <span class="live-pill"><span></span> Live pilot</span>
+            </div>
+            <div class="form-intro">
+              <h3>What can a saathi bring you?</h3>
+              <p>It can be as simple as vegetables for tonight’s dinner.</p>
+            </div>
+            <div class="form-row two-col">
+              <label>
+                <span>Which market?</span>
+                <select id="market" name="market" required>
+                  <option value="Sonapur Main Market">Sonapur Main Market</option>
+                  <option value="Purana Chowk Market">Purana Chowk Market</option>
+                  <option value="River Road Haat">River Road Haat</option>
+                </select>
+              </label>
+              <label>
+                <span>Your area</span>
+                <input id="delivery-area" name="deliveryArea" type="text" placeholder="e.g. Bela Tola" required />
+              </label>
+            </div>
+            <label>
+              <span>What do you need?</span>
+              <input id="items" name="items" type="text" placeholder="e.g. 1 kg tomatoes, coriander, 500 g dal" required />
+            </label>
+            <label>
+              <span>Where should it come?</span>
+              <textarea id="delivery-address" name="address" rows="2" placeholder="House details or a nearby landmark" required></textarea>
+            </label>
+            <div class="form-row two-col">
+              <label>
+                <span>Bring it by</span>
+                <select id="time-window" name="timeWindow" required>
+                  <option value="Today, 5–7 pm">Today, 5–7 pm</option>
+                  <option value="Today, 7–9 pm">Today, 7–9 pm</option>
+                  <option value="Tomorrow morning">Tomorrow morning</option>
+                </select>
+              </label>
+              <label>
+                <span>Your WhatsApp number</span>
+                <input id="phone" name="phone" type="tel" placeholder="10-digit mobile number" inputmode="numeric" required />
+              </label>
+            </div>
+            <div class="form-footer">
+              <p class="form-helper"><span class="lock-icon">♢</span> Your number is only shared with the helper who accepts.</p>
+              <button class="button button-primary" type="submit">Find my saathis <span aria-hidden="true">→</span></button>
+            </div>
+            <p class="form-error" id="request-error" role="alert"></p>
+          </form>
+
+          <aside class="match-card card" id="match-panel" aria-live="polite">
+            <div class="match-empty" id="match-empty">
+              <div class="empty-illustration" aria-hidden="true">
+                <span class="empty-sun"></span>
+                <span class="empty-house">⌂</span>
+                <span class="empty-path"></span>
+                <span class="empty-person">•</span>
+              </div>
+              <div class="match-card-label">Your matchboard</div>
+              <h3>Your trusted route<br />will appear here.</h3>
+              <p>Once you share a request, we’ll show the five closest market-goers who could help.</p>
+              <div class="empty-stats"><span><strong>5</strong> helpers contacted</span><span><strong>~30 min</strong> average response</span></div>
+            </div>
+            <div class="match-results" id="match-results" hidden></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="how-section" id="how-it-works">
+        <div class="page-width">
+          <div class="section-heading compact">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-line"></span> Small steps, made human</div>
+              <h2>Help travels both ways.</h2>
+            </div>
+            <p>Saathi makes the everyday exchange between neighbours simple, fair and dependable.</p>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card">
+              <div class="step-art step-art-one"><span class="art-number">01</span><span class="art-bubble">Need<br />tomatoes</span><span class="art-phone">⌕</span></div>
+              <div class="step-content"><span class="step-tag">For you</span><h3>Tell us what you need</h3><p>Choose the market, list your essentials and tell us where to bring them.</p></div>
+            </article>
+            <article class="step-card">
+              <div class="step-art step-art-two"><span class="art-number">02</span><span class="art-whatsapp">◉</span><span class="art-lines"></span><span class="art-bubble bubble-two">Can help!<br /><small>— Ramesh</small></span></div>
+              <div class="step-content"><span class="step-tag">For the route</span><h3>A saathi gets a message</h3><p>Five suitable neighbours receive your request on WhatsApp and can say yes.</p></div>
+            </article>
+            <article class="step-card">
+              <div class="step-art step-art-three"><span class="art-number">03</span><span class="art-bag">✦</span><span class="art-check">✓</span><span class="art-home">⌂</span></div>
+              <div class="step-content"><span class="step-tag">For everyone</span><h3>Essentials arrive home</h3><p>Confirm the delivery, pay fairly and leave a little trust behind for next time.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="helper-section page-width" id="helpers">
+        <div class="helper-card">
+          <div class="helper-copy">
+            <div class="eyebrow light"><span class="eyebrow-line"></span> Already going to the market?</div>
+            <h2>Your route can<br /><em>help someone.</em></h2>
+            <p>Earn a little on the way home by carrying an extra bag for a neighbour. No app download. Just WhatsApp.</p>
+            <div class="helper-perks"><span>✓ Choose your own route</span><span>✓ Get paid per request</span><span>✓ Build local trust</span></div>
+          </div>
+          <form class="helper-form" id="helper-form" novalidate>
+            <div class="form-intro light-intro"><h3>Join as a market saathi</h3><p>Register once. We’ll message you when a nearby request matches your route.</p></div>
+            <label><span>Your name</span><input id="helper-name" name="helperName" type="text" placeholder="e.g. Ramesh Kumar" required /></label>
+            <div class="form-row two-col">
+              <label><span>WhatsApp number</span><input id="helper-phone" name="helperPhone" type="tel" placeholder="10-digit mobile number" inputmode="numeric" required /></label>
+              <label><span>Your usual market</span><select id="helper-market" name="helperMarket"><option>Sonapur Main Market</option><option>Purana Chowk Market</option><option>River Road Haat</option></select></label>
+            </div>
+            <label><span>Where do you usually return?</span><input id="helper-route" name="helperRoute" type="text" placeholder="e.g. Main Market → Bela Tola" required /></label>
+            <button class="button button-light" type="submit">Register my route <span aria-hidden="true">→</span></button>
+            <p class="form-error helper-error" id="helper-error" role="alert"></p>
+            <p class="helper-success" id="helper-success" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-inner">
+        <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">स</span><span><strong>saathi</strong><small>market help, carried home</small></span></a>
+        <p>Made for the routes that already bring us together.</p>
+        <span class="footer-location">Sonapur pilot · 2026</span>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
